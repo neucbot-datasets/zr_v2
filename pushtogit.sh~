@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for ele in `ls`; do
+    if [[ -d "$ele" ]]; then
+	echo $ele
+    fi
+done
+
+#git init
+#git add README.md
+#git commit -m "first commit"
+#git remote add origin git@github.com:neucbot-datasets/zn_v2.git
+#git push -u origin master
